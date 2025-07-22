@@ -3,7 +3,18 @@ body {
 }
 
 h1 {
+  color: red;
+  text-align: center;
+}
+
+h2 {
   color: green;
+  text-align: center;
+  border-radius: 16px;
+}
+
+h3 {
+  color: purple;
   text-align: center;
 }
 
@@ -27,3 +38,22 @@ section p, section li {
   color: #333;
 }
 
+.gallery-section {
+  padding: 40px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
