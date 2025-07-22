@@ -6,3 +6,24 @@ h1 {
   color: green;
   text-align: center;
 }
+
+section {
+  padding: 40px;
+  background: #fff;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+section h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+  color: #1f2937;
+}
+
+section p, section li {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
+
