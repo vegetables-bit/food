@@ -1,0 +1,22 @@
+body {
+  background-color: #a9ebb4;
+  text-align: justify;
+  text-decoration: #444444;
+  text-shadow: #0fa099;
+}
+h1 {
+  color: #1c07d8;
+  text-transform: uppercase;
+  text-align: center;
+  background-image: -moz-repeating-linear-gradient();
+}
+
+.btn-GoBackHome {
+    display: inline;
+    font-size: 18px;
+    font-style: normal;
+    background-color: rgb(139, 37, 71);
+    border-radius: 10px;
+    margin-top: 23px;
+    padding: 15px 26px;
+}

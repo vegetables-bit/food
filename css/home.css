@@ -1,17 +1,19 @@
 body {
-  background-color: #d3a033;
-  font-family: 'Georgia', serif;
+  background-color: #3f4e6d;
+  font-family: 'Arial', sans-serif;
   text-align: justify;
+  text-decoration: dashed;
+  text-overflow: inherit;
 }
 h1 {
-  color: #02701a;
+  color: #fd0505;
 }
 
 .btn-GoBackHome {
     display: inline;
     font-size: 18px;
     font-style: normal;
-    background-color: rgb(1, 20, 8);
+    background-color: rgb(143, 146, 105);
     border-radius: 10px;
     margin-top: 23px;
     padding: 15px 26px;
