@@ -3,6 +3,7 @@ body {
   text-align: justify;
   text-decoration: #444444;
   text-shadow: #0fa099;
+  padding: 40px;
 }
 h1 {
   color: #1c07d8;
@@ -15,8 +16,14 @@ h1 {
     display: inline;
     font-size: 18px;
     font-style: normal;
+    color: aliceblue;
     background-color: rgb(139, 37, 71);
     border-radius: 10px;
     margin-top: 23px;
     padding: 15px 26px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
