@@ -97,7 +97,7 @@ section p, section li {
 @media (max-width: 768px) {
   .navbar {
     position: static;
-    text-align: center;
+    text-align: right;
     margin-top: 10px;
   }
 
