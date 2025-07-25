@@ -113,3 +113,10 @@ section p, section li {
     background-color: #f8f8f8;
   }
 }
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  color: #888;
+  font-size: 14px;
+}
