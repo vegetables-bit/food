@@ -20,27 +20,6 @@
             text-align: center;
           }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  background-color: #5a5757ff;
-}
-
-nav ul li {
-  margin: 0 15px;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
-}
 section {
   background-color: rgb(204, 219, 236);
   margin: 30px auto;
@@ -51,7 +30,7 @@ section {
 }
 
 section h2 {
-  color: rgb(163, 226, 151);
+  color: rgb(233, 16, 124);
   font-size: 28px;
   margin-bottom: 15px;
 }
@@ -97,14 +76,17 @@ a:hover {
   
   <section id="home" class="hero">
     <div class="hero-image">
-      <nav class="navbar">
-      <ul>
-        <li><a href="index.html1.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-      </ul>
-      </nav>
+
+  <span class="menu-toggle" onclick="toggleMenu()">☰</span>
+
+<nav>
+  <ul id="nav-menu">
+    <li><a href="about.html">About</a></li>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="menu.html">Menu</a></li>
+  </ul>
+</nav>
       
       <img src="assets\image/food.png" alt="Malawian food" />
       <p>Indulge in Malawi's iconic comfort — perfectly cooked Nsima served with a richly seasoned fish head stew and vibrant garden-fresh vegetables. Every bite carries the warmth of home, the love of tradition, and the flavor of memories. A plate crafted to satisfy your soul</p>
@@ -167,7 +149,7 @@ a:hover {
       </div>
       <img src="assets/Rice Pork.jpg" alt="Rice with Pork">
       <div class="text-align">
-      <h1>For those who Pork, here's your first choice</h1>
+      <h1>For those who like Pork, here's your first choice</h1>
       <p>This colorful rice dish is filled with vegetables, beef or chicken, and cooked in seasoned tomato sauce. Common in West Africa but loved in Malawi too, this fried rice is perfect for parties and celebrations.</p>
       <p>It’s aromatic, spicy, and visually appealing. Every spoonful offers a burst of flavor; from peppers and onions to sweet carrots and savory meat. A drizzle of soy sauce or tomato paste boosts the flavor even more.</p>
       <p>This dish is great for guests or takeaways. Whether you're packing a lunchbox or serving dinner at home, Jollof or fried rice is a guaranteed hit.</p>
@@ -176,6 +158,14 @@ a:hover {
   </section>
 </main>
   </section>
+  
+  <script>
+  function toggleMenu() {
+    const menu = document.getElementById('nav-menu');
+    menu.classList.toggle('show');
+  }
+</script>
+
    <footer>
     &copy; 2025 Andrew Masamba. All rights reserved.
   </footer>
