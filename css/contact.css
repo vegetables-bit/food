@@ -26,4 +26,9 @@ h1 {
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background-color: #cbb2e2;
+  font-family: 'Georgia', serif;
+  text-align: justify;
+  padding: 30px;
+  margin-inline: 23px;
 }

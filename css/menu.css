@@ -34,4 +34,9 @@ h1 {
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background-color: #c7c4ca;
+  font-family: 'Georgia', serif;
+  text-align: justify;
+  padding: 30px;
+  margin-inline: 13px;
 }
