@@ -5,23 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MASAMBA WEBSITE</title>
   <link rel="stylesheet" href="css/style.css" />
+  <script src="script.js"></script>
   <style>
     body {
         font-family: 'Segoe UI', sans-serif;
         background-color: rgb(235, 235, 240);
         color: #222;
         margin: 0;
-        padding: 0;
+        padding: 10px;
       }
       header {
-            background-color: rgb(171, 231, 148);
+            background-color: rgba(200, 218, 193, 1);
             color: white;
             padding: 20px;
             text-align: center;
           }
 
 section {
-  background-color: rgb(204, 219, 236);
+  background-color: rgba(185, 187, 189, 1);
   margin: 30px auto;
   padding: 30px;
   max-width: 900px;
@@ -30,9 +31,13 @@ section {
 }
 
 section h2 {
-  color: rgb(233, 16, 124);
+  color: rgba(2, 1, 2, 1);
   font-size: 28px;
   margin-bottom: 15px;
+}
+
+section h2, p {
+  background-color: normal;
 }
 
 section p, section li {
@@ -50,7 +55,10 @@ section p, section li {
 }
 
 a {
-  color: rgb(234, 202, 235);
+  color: rgba(248, 241, 248, 1);
+  background-color: black;
+  padding: 14px;
+  border-radius: 20px;
 }
 
 a:hover {
@@ -87,6 +95,19 @@ a:hover {
     <li><a href="menu.html">Menu</a></li>
   </ul>
 </nav>
+<div class="slider">
+  <div class="slides">
+    <img src="food.png" class="slide" />
+    <img src="Nsima 2.jpg" class="slide" />
+    <img src="Kondowole C.jpg" class="slide" />
+    <img src="Kondowole Usipa.jpg" class="slide"/>
+    <img src="Nsima Beef 2.jpg" class="slide" />
+    <img src="Rice Goat 3.jpg" class="slide" />
+    <img src="Rice Pork.jpg" class="slide" />
+  </div>
+  <button class="prev" onclick="prevSlide()">&#10094;</button>
+  <button class="next" onclick="nextSlide()">&#10095;</button>
+</div>
       
       <img src="assets\image/food.png" alt="Malawian food" />
       <p>Indulge in Malawi's iconic comfort; perfectly cooked Nsima served with a richly seasoned fish head stew and vibrant garden-fresh vegetables. Every bite carries the warmth of home, the love of tradition, and the flavor of memories. A plate crafted to satisfy your soul</p>
@@ -121,7 +142,7 @@ a:hover {
   <div class="gallery">
       <img src="assets/Nsima Beef 2.jpg" alt="Nsima with Beef">
       <div class="text-align">
-      <h1>This is Nsima with Beef, well prepared and cooked dish</h1>
+      <h1>Nsima with Beef, well prepared and cooked dish</h1>
         <p>Nsima is a traditional Malawian staple made from finely ground maize flour. It is usually served hot and forms the base of most meals in Malawian households. In this dish, it is perfectly complemented with tender pieces of beef cooked in rich, spicy tomato gravy.</p>
         <p>The beef is simmered slowly to ensure it’s soft, juicy, and infused with the flavors of fresh garlic, onions, and locally sourced spices. Served with fresh green vegetables on the side, it offers a balance of taste and nutrition.</p>
         <p>This meal not only satisfies hunger but also gives you a real taste of home. It’s a go-to for both lunch and dinner, filling you with comfort and flavor. A plate of Nsima and beef speaks of warmth, tradition, and pride in Malawian cuisine.</p>  

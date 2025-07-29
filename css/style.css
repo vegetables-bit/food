@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  color: red;
+  color: black;
   text-align: center;
 }
 
@@ -14,14 +14,14 @@ h2 {
 }
 
 h3 {
-  color: purple;
+  color: black;
   text-align: center;
 }
 
 section {
   padding: 40px;
   background: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
@@ -75,8 +75,8 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   color: white;
-  background-color: #4CAF50;
-  padding: 8px 16px;
+  background-color: #080e09ff;
+  padding: 5px 12px;
   border-radius: 5px;
   display: block;
 }
@@ -113,3 +113,32 @@ footer {
   color: #888;
   font-size: 14px;
 }
+
+.slider {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.slides img {
+  width: 100%;
+  display: none;
+  border-radius: 10px;
+}
+
+button.prev, button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+button.prev { left: 10px; }
+button.next { right: 10px; }
