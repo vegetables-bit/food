@@ -22,5 +22,4 @@ function prevSlide() {
 nextBtn.addEventListener('click', nextSlide);
 prevBtn.addEventListener('click', prevSlide);
 
-// Auto slide every 5 seconds
 setInterval(nextSlide, 5000);

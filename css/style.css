@@ -171,9 +171,31 @@ footer {
   transition: transform 0.5s ease-in-out;
 }
 
-/* For mobile */
 @media (max-width: 600px) {
   .slider-container {
     max-width: 100%;
   }
+}
+.slider-container img {
+  display: none;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.slider-container {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.slider-container img.active {
+  display: block;
+  opacity: 1;
+  position: relative;
 }
