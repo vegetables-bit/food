@@ -56,7 +56,6 @@ section p, section li {
 
 a {
   color: rgba(248, 241, 248, 1);
-  background-color: black;
   padding: 14px;
   border-radius: 20px;
 }
@@ -80,8 +79,6 @@ a:hover {
   <h1><b>MASAMBA DISTRIBUTORS</b></h1>
   
 
- 
-  
   <section id="home" class="hero">
     <div class="hero-image">
 
@@ -89,26 +86,33 @@ a:hover {
 
 <nav>
   <ul id="nav-menu">
-    <li><a href="about.html">About</a></li>
-    <li><a href="home.html">Home</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="menu.html">Menu</a></li>
+    <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
   </ul>
 </nav>
-<div class="slider">
-  <div class="slides">
-    <img src="food.png" class="slide" />
-    <img src="Nsima 2.jpg" class="slide" />
-    <img src="Kondowole C.jpg" class="slide" />
-    <img src="Kondowole Usipa.jpg" class="slide"/>
-    <img src="Nsima Beef 2.jpg" class="slide" />
-    <img src="Rice Goat 3.jpg" class="slide" />
-    <img src="Rice Pork.jpg" class="slide" />
+  <section id="home">
+  <h1>Welcome to My Food Site</h1>
+  <p>Delicious meals, fast delivery!</p>
+
+  <div class="slider">
+    <img src="Nsima 2.jpg" alt="Food 1" class="slide active">
+    <img src="Kondowole C.jpg" alt="Food 2" class="slide">
+    <img src="Kondowole Usipa.jpg" alt="Food 3" class="slide">
+    <img src="Nsima Beef 2.jpg" alt="Food 4" class="slide">
+    <img src="Rice Goat 3.jpg" alt="Food 5" class="slide">
+    <img src="Rice Pork.jpg" alt="Food 6" class="slide">
+
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
   </div>
-  <button class="prev" onclick="prevSlide()">&#10094;</button>
-  <button class="next" onclick="nextSlide()">&#10095;</button>
-</div>
-      
+</section>
+
       <img src="assets\image/food.png" alt="Malawian food" />
       <p>Indulge in Malawi's iconic comfort; perfectly cooked Nsima served with a richly seasoned fish head stew and vibrant garden-fresh vegetables. Every bite carries the warmth of home, the love of tradition, and the flavor of memories. A plate crafted to satisfy your soul</p>
       <img src="assets\image/Nsima  2.jpg" alt="Malawian Food" />
@@ -179,6 +183,73 @@ a:hover {
   </section>
 </main>
   </section>
+<section id="about">
+<body>
+<section id="about">
+  <h1><b>About Us</b></h1>
+
+  <p>Masamba Restaraunt was founded with a love for Malawian cuisine and a mission to bring the freshest local food experience to Malawi. With years of culinary expertise, our chefs use traditional techniques to craft creative dishes that surprise and satisfy.</p>
+
+  <p>From the beginning, our vision has been to create a relaxing space for local food lovers to enjoy authentic flavors while embracing modern service. Every dish is made with care, precision, and a promise of quality.</p>
+
+  <p>We are proud to be a local business that values customers, culture, and community. Join us today and be part of the Masamba Restaurant story.</p>
+</section>
+</body>
+</html>
+</section>
+<section id="menu">
+  <style>
+    body {
+      padding: 10px;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #a8abadff;
+    }
+    h1 {
+      text-align: center;
+    }
+
+  </style>  
+
+</head>
+<body>
+
+  <h1>OUR MENU</h1>
+  <p>At MASAMBA Distributors, we offer a carefully selected menu of products designed to meet the daily needs of individuals, families, and businesses. From essential groceries and household items to beverages and snacks, our inventory is always growing to meet market demands. Each item on our menu is sourced with care to ensure high quality and competitive pricing.</p>
+  <p>Some of our top categories include packaged foods, cleaning supplies, personal care products, soft drinks, and bulk items for businesses. Whether you're a retail customer or a wholesale buyer, you’ll find that our menu is tailored to suit your requirements, with flexible delivery options and reliable service every step of the way.</p>
+  <section id="menu">
+  <ul>
+    <li><strong>Nsima</strong> – With Chicken, Beef, Pork,and Chevon – <em>MK 5,000</em></li>
+    <li><strong>Kondowole</strong> – With Beef, Pork, Muttom, Hare, and Lamb – <em>MK 5,500</em></li>
+    <li><strong>Rice</strong> – With Beef, Lamb, Chevon, and Cabrito – <em>MK 6,000</em></li>
+    <li><strong>Vegetables</strong> – Carrot, Avocado, Cucumber – <em>MK 2,500</em></li>
+    <li><strong>Chapat</strong> – 5 mixed with eggs – <em>MK 12,000</em></li>
+  </ul>
+  <p><em>Special orders and custom platters available upon request.</em></p>
+
+  <a href="https://wa.me/265998343755" class="btn-order" target="_blank">Order Now</a>
+</section>
+</body>
+</html>
+</section>
+<section id="contact">
+<body>
+  <h1><b>Contact Us</b></h1>
+  <p>We’re always ready to hear from you. Whether you have a question, a comment, or want to partner with us, MASAMBA Distributors values every opportunity to connect with our customers and community. Our team is here to assist you with product inquiries, order processing, deliveries, and general support.</p>
+  <p>You can reach us via phone, email, or by visiting our office. We promise timely responses and friendly service. Your feedback helps us improve and serve you better every day. Thank you for choosing MASAMBA; we look forward to working with you!</p>
+   <p><b>Contact us today!</b></p>
+<ul>
+  <li>📧<a href="mailto:andrewmasamba32@gmail.com">Email: andrewmasamba32@gmail.com</a></li>
+  <li>📞<a href="tel:+265998343755 or +265881491825">Phone: +265 998343755 or 881491825</a></li>
+  <li>💬<a href="https://wa.me/265998343755" target="_blank">WhatsApp: Message us</a></li>
+</ul>
+  <section id="contact">
+  <p>📍 Location: Bypass Road, Zamkutu, Lilongwe area 38, Malawi</p>
+  <p>⏰ Open Hours: Mon – Sat | 10:00 AM – 10:00 PM</p>
+</section>
+</body>
+</html>
+</section>
   
   <script>
   function toggleMenu() {
